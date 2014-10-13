@@ -9,6 +9,7 @@
 #import "SuperHeroController.h"
 
 @interface SuperHeroController () <UITableViewDataSource, UITableViewDelegate>
+@property NSDictionary *supermanDictionary;
 
 @end
 
@@ -17,7 +18,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.supermanDictionary = [NSDictionary dictionaryWithObjectsAndKeys:@"Superman", @"name", @"Krypton", @"home", nil];
+    NSLog(@"%@", [self.supermanDictionary objectForKey:@"name"]);
+    NSLog(@"%@", [self.supermanDictionary objectForKey:@"home"]);
 }
 
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MyCellID"];
+    cell.textLabel.text = [self.supermanDictionary objectForKey:@"name"];
+    cell.detailTextLabel.text = [self.supermanDictionary objectForKey:@"home"];
+    return cell;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 1;
+}
 
 @end
