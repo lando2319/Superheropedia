@@ -10,7 +10,7 @@
 		CCE09F0719EC2C310012D136 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE09F0619EC2C310012D136 /* main.m */; };
 		CCE09F0A19EC2C310012D136 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE09F0919EC2C310012D136 /* AppDelegate.m */; };
 		CCE09F0D19EC2C310012D136 /* SuperHeropedia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCE09F0B19EC2C310012D136 /* SuperHeropedia.xcdatamodeld */; };
-		CCE09F1019EC2C310012D136 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE09F0F19EC2C310012D136 /* ViewController.m */; };
+		CCE09F1019EC2C310012D136 /* SuperHeroController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE09F0F19EC2C310012D136 /* SuperHeroController.m */; };
 		CCE09F1319EC2C310012D136 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCE09F1119EC2C310012D136 /* Main.storyboard */; };
 		CCE09F1519EC2C310012D136 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCE09F1419EC2C310012D136 /* Images.xcassets */; };
 		CCE09F1819EC2C310012D136 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCE09F1619EC2C310012D136 /* LaunchScreen.xib */; };
@@ -34,8 +34,8 @@
 		CCE09F0819EC2C310012D136 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CCE09F0919EC2C310012D136 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CCE09F0C19EC2C310012D136 /* SuperHeropedia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SuperHeropedia.xcdatamodel; sourceTree = "<group>"; };
-		CCE09F0E19EC2C310012D136 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CCE09F0F19EC2C310012D136 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCE09F0E19EC2C310012D136 /* SuperHeroController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperHeroController.h; sourceTree = "<group>"; };
+		CCE09F0F19EC2C310012D136 /* SuperHeroController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperHeroController.m; sourceTree = "<group>"; };
 		CCE09F1219EC2C310012D136 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CCE09F1419EC2C310012D136 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CCE09F1719EC2C310012D136 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -85,8 +85,8 @@
 			children = (
 				CCE09F0819EC2C310012D136 /* AppDelegate.h */,
 				CCE09F0919EC2C310012D136 /* AppDelegate.m */,
-				CCE09F0E19EC2C310012D136 /* ViewController.h */,
-				CCE09F0F19EC2C310012D136 /* ViewController.m */,
+				CCE09F0E19EC2C310012D136 /* SuperHeroController.h */,
+				CCE09F0F19EC2C310012D136 /* SuperHeroController.m */,
 				CCE09F1119EC2C310012D136 /* Main.storyboard */,
 				CCE09F1419EC2C310012D136 /* Images.xcassets */,
 				CCE09F1619EC2C310012D136 /* LaunchScreen.xib */,
@@ -224,7 +224,7 @@
 			files = (
 				CCE09F0A19EC2C310012D136 /* AppDelegate.m in Sources */,
 				CCE09F0719EC2C310012D136 /* main.m in Sources */,
-				CCE09F1019EC2C310012D136 /* ViewController.m in Sources */,
+				CCE09F1019EC2C310012D136 /* SuperHeroController.m in Sources */,
 				CCE09F0D19EC2C310012D136 /* SuperHeropedia.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
